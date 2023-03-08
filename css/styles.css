@@ -313,7 +313,10 @@ body {
 .container.customers {
 }
 .customers-title {
-	margin-bottom: 72px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.1;
+	margin-bottom: var(--title-margin-bottom);
 }
 .customers-list {
 	display: flex;
